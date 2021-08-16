@@ -1,0 +1,12 @@
+* GUI to pick video sources
+  * Sources need to support audio/video filters, to use the async delay
+  * Other sources (display capture) only have render delay (limited to 500ms); stack these?
+  * Camera sources only?
+* User selects sources they want to sync
+* Frame capture
+  * Have max capture time?
+* Sync to the last source
+* Affect the delays named SYNC_ALIGN_*
+* Audio delay sync too (show waveform?)
+* Web interface or OBS gui?
+?
